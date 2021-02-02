@@ -1,0 +1,13 @@
+import imported_files.mathmodule
+num1=int(input("ENTER FIRST NUMBER :"))
+num2=int(input("ENTER SECOND NUMBER :"))
+data1= imported_files.mathmodule.add(num1, num2)
+print("sum is",data1)
+data2= imported_files.mathmodule.subtract(num1, num2)
+print("Difference is",data2)
+data3= imported_files.mathmodule.multiply(num1, num2)
+print("product is",data3)
+data4= imported_files.mathmodule.divide(num1, num2)
+print("Quotient is",data4)
+data5= imported_files.mathmodule.modulus(num1, num2)
+print("Modulus is",data5)
