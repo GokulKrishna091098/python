@@ -47,9 +47,6 @@ while(c=="y"):
         prp=input("Enter Property:")
         getmodeldetails1(mn=modelname,prp=prp)
 
-
-
-
     c=input("Do you want to continue?[y/n]")
 
 
