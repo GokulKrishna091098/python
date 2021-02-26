@@ -24,6 +24,7 @@ class Stud():
         self.name=name
         self.course=course
         self.marks=marks
+
 stud=[]
 
 obj1=Stud("ram","mca",220)
@@ -47,3 +48,12 @@ maxx=max(m)
 for student in stud:
     if student.marks==maxx:
         print(student.name)
+s=[obj1,obj2,obj3,obj4,obj5]
+UC=list(map(lambda stud:stud.name.upper(),s))
+print(UC)
+UM=list(map(lambda stud:stud.marks + 50,s))
+print (UM)
+MCA=list(map(lambda st:st.name,list(filter(lambda stud:stud.course=="mca",s))))
+print (MCA)
+max_marks=max(list(map(lambda st:st.marks,s)))
+print(max_marks)
